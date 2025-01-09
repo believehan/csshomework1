@@ -1,0 +1,67 @@
+*{
+    text-align: center;
+}
+header{
+    height: 20vh;
+    width : calc(1024px*0.8);
+    display: flex;
+    margin: 0 auto;
+}
+h1{
+    height: 10vh;
+    width: 10vh;
+    margin: auto;
+    background-image: url("../image/starbucks_logo.jpg");
+    background-size: cover;
+    background-position: center;
+    text-indent: -9999em;
+}
+a{
+    text-decoration-line: none;
+}
+nav{
+    text-align: center;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+nav li{
+    background-color: antiquewhite;
+    background-position: center;
+    text-align: justify;
+    display: inline-block;
+    padding: 0 30px;
+    margin: 5px;
+    font-size: small;
+}
+main{
+    width : calc((1024px/100)*80);
+    height: 60%;
+    margin: 0 auto;
+    display: inline-block;
+}
+div{
+    display: block;
+}
+section{
+    background-color: grey;
+    background-position: center;
+    padding: 50px;
+}
+article{
+    background-color:darkgreen;
+    padding: 50px 0;
+}
+aside{
+    background-color: burlywood;
+    padding: 50px 0;
+}
+footer{
+    width : calc(1024px*0.8);
+    margin: 0 auto;
+    text-align: center;
+    background-color: cadetblue;
+}
+h3{
+    width: calc(1024px*0.8);
+}
