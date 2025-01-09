@@ -8,8 +8,8 @@ header{
     margin: 0 auto;
 }
 h1{
-    height: 10vh;
-    width: 10vh;
+    height: 15vh;
+    width: 15vh;
     margin: auto;
     background-image: url("../image/starbucks_logo.jpg");
     background-size: cover;
@@ -44,8 +44,14 @@ main{
     margin: 0 auto;
     display: inline-block;
 }
-div{
+.section_article{
     display: block;
+    width: 400px;
+    height: 300px;
+}
+section, article{
+    margin-left: -100px;
+    width: 30%;
 }
 section{
     background-color: grey;
@@ -54,17 +60,17 @@ section{
 }
 article{
     background-color:darkgreen;
-    padding: 50px 0;
+    padding: 50px;
 }
 aside{
-    background-color: burlywood;
+    background-color:peru ;
     padding: 50px 0;
 }
 footer{
     width : calc(1024px*0.8);
     margin: 0 auto;
     text-align: center;
-    background-color: cadetblue;
+    background-color: navajowhite;
 }
 h3{
     width: calc(1024px*0.8);
