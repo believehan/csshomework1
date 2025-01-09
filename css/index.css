@@ -25,6 +25,7 @@ nav{
     background-position: center;
     display: flex;
     align-items: center;
+    margin: 0 auto;
 }
 li h2{
     background-color: antiquewhite;
@@ -35,43 +36,46 @@ nav li{
     background-position: center;
     text-align: justify;
     display: inline-block;
-
     font-size: small;
 }
 main{
     width : calc((1024px/100)*80);
-    height: 60%;
+    height: 60vh;
     margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+h2{
+    margin: 0;
+}
+#section_article{
     display: inline-block;
-}
-.section_article{
-    display: block;
-    width: 400px;
-    height: 300px;
-}
-section, article{
-    margin-left: -100px;
-    width: 30%;
+    width: 70%;
 }
 section{
     background-color: grey;
-    background-position: center;
-    padding: 50px;
+    line-height: calc(60vh*0.6);
 }
 article{
     background-color:darkgreen;
-    padding: 50px;
+    line-height: calc(60vh*0.4);    
 }
 aside{
+    width: 30%;
+    display: inline-block;
     background-color:peru ;
-    padding: 50px 0;
+    line-height: 60vh;
+    vertical-align: top;
 }
 footer{
+    height: 20vh;
     width : calc(1024px*0.8);
     margin: 0 auto;
     text-align: center;
     background-color: navajowhite;
+    line-height: 20vh;
 }
 h3{
     width: calc(1024px*0.8);
+    margin: 0;
 }
